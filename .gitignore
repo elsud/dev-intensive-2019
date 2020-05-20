@@ -1,16 +1,40 @@
-#Hemfis
+ # Built application files
+ build/
 
-# Gradle files
-.gradle/
+ # Files for the ART/Dalvik VM
+ *.dex
 
-# User-specific configurations
-*.iml
+ # External native build folder generated in Android Studio 2.2 and later
+ .externalNativeBuild
 
-# OS-specific files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+ # Gradle files
+ .gradle/
+
+ # Signing files
+ .signing/
+
+ # User-specific configurations
+ *.iml
+
+ # Local configuration file (sdk path, etc)
+ local.properties
+
+ # Log Files
+ *.log
+
+ # Android Studio Navigation editor tempfiles
+ .navigation/
+
+ # Android Studio captures folder
+ captures/
+
+ # Keystore files
+ # Uncomment the following lines if you do notwant to check your keystone files in.
+ *.jks
+ *.keystore
+
+ # Google Services (e.g. APIs or Firebase)
+ google-services.json
+
+ # Version control
+ vcs.xml
